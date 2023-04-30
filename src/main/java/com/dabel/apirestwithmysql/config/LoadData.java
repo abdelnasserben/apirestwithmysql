@@ -22,10 +22,10 @@ public class LoadData {
 		
 		return args -> {
 			
-			repository.save(new Course("Découvrez Spring Boot","Le lorem ipsum est, en imprimerie.", "Développement", "facile"));
-			repository.save(new Course("Trouvez votre niche","Le lorem ipsum est, en imprimerie.", "Marketing", "moyen"));
-			repository.save(new Course("MySQL et les SGBDR","Le lorem ipsum est, en imprimerie.", "Data", "Difficile"));
-			repository.save(new Course("Excel pour débutant","Le lorem ipsum est, en imprimerie.", "Bureautique", "facile"));
+			repository.save(new Course("Découvrez Spring Boot","Le lorem ipsum est, en imprimerie.", "Développement", "Facile"));
+			repository.save(new Course("Trouvez votre niche","Le lorem ipsum est, en imprimerie.", "Marketing", "Moyen"));
+			repository.save(new Course("MySQL et les SGBDR","Le lorem ipsum est, en imprimerie.", "Data", "Avancé"));
+			repository.save(new Course("Excel pour débutant","Le lorem ipsum est, en imprimerie.", "Bureautique", "Facile"));
 			
 			LoggerFactory.getLogger(getClass()).info("Preloadint data successufly executed");
 		};
